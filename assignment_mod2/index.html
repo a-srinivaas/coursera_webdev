@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>assignment_mod2</title>
+    <style>
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Comic Sans MS","Comic Sans",cursive;
+      }
+
+      h1{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+      }
+
+      body>div{
+        width:calc(100% - 40px);
+        float: left;
+        margin: 20px;
+        padding: 0;
+        background-color: grey;
+        border: black solid 2px;
+      }
+
+      div>div{
+        clear: both;
+        padding: 10px 20px;
+      }
+
+      div>section{
+        float:right;
+        box-sizing: content-box;
+        padding: 5px 20px;
+        border-left: black solid 2px;
+        border-bottom: black solid 2px;
+        width: 7em;
+        height: auto;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      @media (min-width: 992px) {
+        .d{
+          width:calc(33.33% - 40px);
+        }
+      }
+       @media (min-width: 768px) and (max-width: 991px) {
+        .t1{
+          width:calc(50% - 40px);
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Our Menu</h1>
+    <div class="d t1">
+      <section style="background-color: pink;">
+      Chicken
+      </section>
+      <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in turpis vel augue consectetur auctor sed dapibus augue. Sed sed consectetur nisl. Fusce efficitur ex eu augue congue, quis tempus felis interdum. Nunc pharetra luctus suscipit. Aenean tellus ex, blandit id arcu in, vulputate dictum velit. Duis vitae justo fringilla nisi imperdiet congue quis vel enim. Suspendisse luctus a libero a tincidunt.
+      </div>
+    </div>
+
+    <div class="d t1">
+      <section style="background-color: red;color: white;">
+        Beef
+      </section>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in turpis vel augue consectetur auctor sed dapibus augue. Sed sed consectetur nisl. Fusce efficitur ex eu augue congue, quis tempus felis interdum. Nunc pharetra luctus suscipit. Aenean tellus ex, blandit id arcu in, vulputate dictum velit. Duis vitae justo fringilla nisi imperdiet congue quis vel enim. Suspendisse luctus a libero a tincidunt.
+      </div>
+    </div>
+
+    <div class="d">
+      <section style="background-color: yellow;">
+        Sushi
+      </section>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in turpis vel augue consectetur auctor sed dapibus augue. Sed sed consectetur nisl. Fusce efficitur ex eu augue congue, quis tempus felis interdum. Nunc pharetra luctus suscipit. Aenean tellus ex, blandit id arcu in, vulputate dictum velit. Duis vitae justo fringilla nisi imperdiet congue quis vel enim. Suspendisse luctus a libero a tincidunt.
+      </div>
+    </div>
+  </body>
+</html>
