@@ -360,7 +360,7 @@ th {
 .glyphicon-home:before {
   content: "\e021";
 }
-.glyphicon-file:before {
+.glyphicon-input_file:before {
   content: "\e022";
 }
 .glyphicon-time:before {
@@ -882,10 +882,10 @@ th {
 .glyphicon-cd:before {
   content: "\e201";
 }
-.glyphicon-save-file:before {
+.glyphicon-save-input_file:before {
   content: "\e202";
 }
-.glyphicon-open-file:before {
+.glyphicon-open-input_file:before {
   content: "\e203";
 }
 .glyphicon-level-up:before {
@@ -2523,7 +2523,7 @@ input[type="checkbox"] {
   margin-top: 1px \9;
   line-height: normal;
 }
-input[type="file"] {
+input[type="input_file"] {
   display: block;
 }
 input[type="range"] {
@@ -2534,7 +2534,7 @@ select[multiple],
 select[size] {
   height: auto;
 }
-input[type="file"]:focus,
+input[type="input_file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
   outline: thin dotted;
